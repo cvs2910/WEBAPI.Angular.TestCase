@@ -1,0 +1,44 @@
+[
+  {
+    "studentName": "Anna Taylor",
+    "language": 90,
+    "science": 85,
+    "socialStudies": 86,
+    "math": 89
+  },
+  {
+    "studentName": "Mark Smith",
+    "language": 82,
+    "science": 75,
+    "socialStudies": 89,
+    "math": 86
+  },
+  {
+    "studentName": "John Doe",
+    "language": 89,
+    "science": 76,
+    "socialStudies": 94,
+    "math": 82
+  },
+  {
+    "studentName": "Jack Jones",
+    "language": 93,
+    "science": 73,
+    "socialStudies": 97,
+    "math": 90
+  },
+  {
+    "studentName": "Melody Queens",
+    "language": 87,
+    "science": 89,
+    "socialStudies": 80,
+    "math": 83
+  },
+  {
+    "studentName": "Noah Menac",
+    "language": 86,
+    "science": 90,
+    "socialStudies": 83,
+    "math": 85
+  }
+]

@@ -1,0 +1,36 @@
+<div class="panel panel-primary"
+     ng-controller="studentsList as vm">
+
+    <form>
+        <div class="form-group">
+            <div class="input-group">
+                <div class="input-group-addon"><i class="fa fa-search"></i></div>
+                <input type="text" class="form-control" placeholder="Search by student name" ng-model="searchName">
+                <input type="text" class="form-control" placeholder="Search by Language & Arts mark" ng-model="searchMark">
+            </div>
+        </div>
+    </form>
+
+    <div class="panel-body">
+        <table class="table table-striped">
+            <thead class="alert-success">
+                <tr>
+                    <td>Student</td>
+                    <td>Language & Arts</td>
+                    <td>Science</td>
+                    <td>Social Studies</td>
+                    <td>Math</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="student in vm.students | filter:{studentName: searchName} | filter:{language: searchMark}">
+                    <td>{{ student.studentName}}</td>
+                    <td>{{ student.language}}</td>
+                    <td>{{ student.science}}</td>
+                    <td>{{ student.socialStudies}}</td>
+                    <td>{{ student.math}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
